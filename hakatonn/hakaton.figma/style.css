@@ -1,0 +1,128 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.food {
+  h1 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+    span {
+      color: rgba(255, 122, 80, 1);
+    }
+  }
+}
+.food-blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.food-block1 {
+  position: relative;
+  width: 361px;
+  height: 417px;
+  background: rgba(255, 255, 255, 1);
+  border-top-left-radius: 50px;
+  h3 {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin: 20px;
+  }
+}
+.food-text {
+  margin: 16px;
+  position: absolute;
+  top: 75%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  ion-icon {
+    font-size: 25px;
+    color: rgba(54, 56, 83, 1);
+  }
+  h6 {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    font-family: sans-serif;
+    color: rgba(54, 56, 83, 1);
+  }
+  button {
+    background: rgba(255, 122, 80, 1);
+    padding: 0 20px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    ion-icon {
+      color: white;
+    }
+  }
+}
+
+.our {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.our-text {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: black;
+    span {
+      color: rgba(255, 122, 80, 1);
+      font-size: 36px;
+      font-weight: 700;
+    }
+  }
+  p {
+    color: rgba(54, 56, 83, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+.our-buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.o-but1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  position: relative;
+  width: 120px;
+  height: 40px;
+  background: black;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 7px;
+  ion-icon {
+    font-size: 25px;
+  }
+  h4 {
+    margin: 10px 0 20px 30px;
+    font-size: 10px;
+    position: absolute;
+    top: 1px;
+    span {
+      padding-top: 10px;
+      font-size: 12px;
+    }
+  }
+}
+

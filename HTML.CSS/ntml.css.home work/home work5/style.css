@@ -1,0 +1,20 @@
+.contact {
+    font-size: 20px;
+    background: rgb(7, 7, 7);
+   
+}
+
+.contact h1 {
+    margin: 0 50px;
+    color: white;
+}
+.email h6 {
+    color: rgba(255, 255, 255, 0.951);
+    
+}
+
+.contact button {
+background: rgb(252, 247, 247);
+margin: 0px 50px;
+padding: 5px 20px;
+}

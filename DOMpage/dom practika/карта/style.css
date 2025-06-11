@@ -1,0 +1,259 @@
+* { 
+ margin: 0; 
+ padding: 0; 
+ font-family: sans-serif; 
+} 
+ 
+a { 
+ text-decoration: none; 
+ 
+} 
+ 
+.container { 
+ width: 90%; 
+ margin: 0 auto; 
+} 
+ 
+.visa { 
+ width: 60px; 
+ position: absolute; 
+ top: 10px; 
+ left: 10px; 
+ background: url("./img/bgvisa.jpg"); 
+ 
+ 
+} 
+ 
+.logo { 
+ 
+ width: 60px; 
+ position: absolute; 
+ top: 10px; 
+ left: 10px; 
+ 
+ 
+} 
+ 
+body { 
+ background: url("./img/doudy.jpg"); 
+ font-family: "Montserrat", serif; 
+} 
+ 
+#hero { 
+ padding: 50px 0; 
+} 
+ 
+.hero { 
+ 
+ display: flex; 
+ align-items: flex-start; 
+ justify-content: space-around; 
+} 
+ 
+.add { 
+ display: flex; 
+ align-items: center; 
+ justify-content: center; 
+ flex-direction: column; 
+ gap: 20px; 
+ 
+ h1 { 
+  font-size: 30px; 
+  font-weight: 700; 
+  text-align: center; 
+  color: white; 
+ } 
+ 
+ 
+} 
+ 
+.add { 
+ width: 430px; 
+ height: 844px; 
+ border-radius: 50px; 
+ border: 8px solid; 
+ background: url("./img/692cf39688f0062306520eb11bea9c7d.jpg") no-repeat center/cover; 
+} 
+ 
+ 
+.check { 
+ width: 430px; 
+ height: 844px; 
+ overflow: auto; 
+ scrollbar-width: none; 
+ -ms-overflow-style: none; 
+ border-radius: 50px; 
+ /* overflow: hidden; */ 
+ border: 8px solid; 
+ padding: 0; 
+ background: url("./img/692cf39688f0062306520eb11bea9c7d.jpg") no-repeat center/cover; 
+ 
+ h1 { 
+  font-size: 30px; 
+  font-weight: 700; 
+  text-align: center; 
+  color: white; 
+  margin-top: 150px; 
+ } 
+ 
+ h3 { 
+  font-family: "Montserrat", serif; 
+  font-size: 17px; 
+  font-weight: 500; 
+  color: white; 
+  display: flex; 
+  justify-content: center; 
+ 
+ } 
+ 
+ 
+ 
+} 
+ 
+.check-top { 
+ display: flex; 
+ justify-content: space-around; 
+ 
+ h2 { 
+  font-family: Montserrat; 
+  font-size: 20px; 
+  font-weight: 600; 
+  color: white; 
+  margin-top: 20px; 
+ 
+ } 
+ 
+ h3 { 
+  font-family: Montserrat; 
+  font-size: 20px; 
+  font-weight: 600; 
+  color: #FF9900; 
+  margin-top: 20px; 
+ 
+  span { 
+   font-family: Montserrat; 
+   font-size: 40px; 
+   font-weight: 600; 
+   color: #FF9900; 
+   margin-top: -10px; 
+   margin-left: 10px; 
+ 
+  } 
+ 
+ } 
+} 
+ 
+.list { 
+ display: flex; 
+ justify-content: center; 
+ flex-direction: column; 
+} 
+ 
+.awesome-button { 
+ padding: 18px 50px; 
+ margin-top: 20px; 
+ background-color: rgba(30, 10, 255, 0.3); 
+ color: white; 
+ font-size: 20px; 
+ font-family: 'Montserrat', sans-serif; 
+ border: 3px solid rgba(30, 10, 255, 0.3); 
+ border-radius: 50px; 
+ cursor: pointer; 
+ outline: none; 
+ position: relative; 
+ overflow: hidden; 
+ text-transform: uppercase; 
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+ transition: 0.4s ease-in-out; 
+} 
+ 
+.awesome-button:hover { 
+ background-color: rgba(30, 10, 255, 0.3); 
+ color: white; 
+ transform: scale(1.1); 
+ box-shadow: 0 8px 16px rgba(30, 10, 255, 0.3); 
+} 
+ 
+.awesome-button:before { 
+ content: ""; 
+ position: absolute; 
+ top: -50%; 
+ left: -50%; 
+ width: 200%; 
+ height: 200%; 
+ background: linear-gradient(45deg, #ff0a3c, #ff6347, #ff0a3c, #ff6347); 
+ opacity: 0.5; 
+ transform: rotate(45deg) scale(0); 
+ transition: all 0.5s ease-out; 
+ border-radius: 50%; 
+ z-index: 0; 
+} 
+ 
+.awesome-button:hover:before { 
+ transform: rotate(45deg) scale(1); 
+} 
+ 
+.awesome-button:active { 
+ transform: scale(0.95); 
+ box-shadow: 0 4px 6px rgba(30, 10, 255, 0.3); 
+} 
+ 
+.awesome-button span { 
+ position: relative; 
+ z-index: 1; 
+} 
+ 
+@keyframes liftEffect { 
+ 0% { 
+  transform: translateY(5px); 
+ } 
+ 
+ 50% { 
+  transform: translateY(-10px); 
+ } 
+ 
+ 100% { 
+  transform: translateY(5px); 
+ } 
+} 
+ 
+.awesome-button { 
+ animation: liftEffect 2s ease-in-out infinite; 
+} 
+ 
+.add-block { 
+ display: flex; 
+ flex-direction: column; 
+ align-items: flex-start; 
+ padding: 25px; 
+ width: 206px; 
+ height: 275px; 
+ background: white; 
+ border-radius: 15px; 
+ position: relative; 
+ 
+ h3 { 
+  font-size: 17px; 
+  font-weight: 600; 
+  color: #ff9900; 
+  margin-bottom: 60px; 
+ } 
+} 
+ 
+.add-form { 
+ margin-bottom: 20px; 
+ display: flex; 
+ flex-direction: column; 
+ position: relative; 
+ 
+ label { 
+  transition: 0.7s; 
+  position: absolute; 
+  font-size: 15px; 
+  color: rgba(0, 0, 0, 0.377); 
+  bottom: 40px; 
+  left: 5px; 
+  bottom: 12px; 
+ } 
+ 
+}

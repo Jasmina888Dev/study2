@@ -1,0 +1,52 @@
+#header {
+  padding: 22px 0;
+  background: rgba(43, 21, 13, 1);
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--right {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      h1 {
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        color: white;
+        span {
+          color: rgba(255, 214, 52, 1);
+          font-size: 15px;
+        }
+      }
+      &__content {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        a {
+          color: rgba(255, 214, 52, 1);
+        }
+        h3 {
+          color: rgba(255, 122, 27, 1);
+          font-size: 2 0px;
+        }
+      }
+    }
+    &--left {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      h2 {
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: white;
+      }
+    }
+  }
+}

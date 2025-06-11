@@ -1,0 +1,32 @@
+#events {
+  padding: 100px 0;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  .events {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    &--card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      a {
+        font-size: 150px;
+        color: white;
+        transition: 0.7s;
+      }
+      h1 {
+        color: white;
+        font-size: 40px;
+        font-weight: 300;
+      }
+      &:hover {
+        a {
+          color: #eb14c6;
+        }
+      }
+    }
+  }
+}

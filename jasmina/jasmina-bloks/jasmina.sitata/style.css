@@ -1,0 +1,18 @@
+body {
+  background: rgb(99, 99, 240);
+}
+
+.header button {
+  width: 160px;
+  height: 50px;
+  border-radius: 15px;
+  color: rgb(220, 13, 13);
+  font-size: 30px;
+  background: rgb(214, 75, 133);
+}
+
+.header button:hover {
+  background: rgb(7, 244, 7);
+  transform: scaleX(1.1);
+  transition: 0.8s;
+}

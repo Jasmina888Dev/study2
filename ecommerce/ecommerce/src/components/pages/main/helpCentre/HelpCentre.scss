@@ -1,0 +1,39 @@
+#helpCentre {
+  h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .helpCentre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--content {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      &__block {
+        text-align: center;
+        padding: 13px 55px;
+        border: 1px solid white;
+        border-radius: 20px;
+        transition: 0.7s;
+        cursor: pointer;
+        &:hover {
+          background: white;
+          transform: scale(1.1);
+          h2 {
+            color: #eb14c6;
+          }
+        }
+        h2 {
+          transition: 0.7s;
+          color: white;
+          font-size: 30px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
